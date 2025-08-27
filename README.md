@@ -233,6 +233,8 @@ lilypond 'seu arquivo ly'.ly
 
 ### Booklet
 
+#### pdfjam
+
 ```bash
 sudo apt install texlive
 ```
@@ -243,4 +245,9 @@ sudo apt install texlive-extra-utils
 
 ```cbash
 pdfjam --booklet true --landscape --suffix booklet --a4paper 'seu PDF'.pdf
+```
+#### pdfbook2
+
+```bash
+pdfbook2 -p a4 'seu PDF'.pdf
 ```
